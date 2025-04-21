@@ -1,0 +1,136 @@
+div.box-main-l {
+    height: 400px;
+}
+
+body {
+    font-family: verdana, arial, sans-serif;
+    font-size: 10pt;
+    background-color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+}
+
+.calendar {
+    border-collapse: collapse;
+    border: 1px solid #0000FF;
+}
+
+.calendarYearHeader {
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*holidays responsive table style*/
+.yearly-online h2 {
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-family: Verdana;
+    margin: 2px;
+}
+
+.calendarbody2,
+.calendarbody1 {
+    border: 1px solid #c0c0c0;
+    font-family: Verdana;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*end holidays responsive table style*/
+.calendarHeader {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #C3D9FF;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #C0C0C0;
+}
+
+.calendarHeader1 {
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bolder;
+    background-color: #E0ECFF;
+    border: 1px solid #C0C0C0;
+    text-align: center;
+    vertical-align: top;
+}
+
+.calendarbody {
+    border: 1px solid #C0C0C0;
+    font-family: Verdana;
+    font-size: 11px;
+    text-align: right;
+    vertical-align: top;
+    width: 10px;
+    height: 10px;
+}
+
+.cWknd {
+    border: 1px solid #C0C0C0;
+    font-family: Verdana;
+    font-size: 11px;
+    background-color: lightgrey;
+    text-align: right;
+    vertical-align: top;
+    width: 10px;
+    height: 10px;
+}
+
+.cBlank {
+    border: 1px solid #C0C0C0;
+    font-family: Verdana;
+    background-color: #EEEEEE;
+}
+
+.cHdayHalf {
+    font-family: Verdana;
+    font-size: 11px;
+    background-color: #ABEBC6;
+    text-align: right;
+    vertical-align: top;
+    width: 10px;
+    height: 10px;
+}
+
+.cHdayFull {
+    font-family: Verdana;
+    font-size: 11px;
+    background-color: lightgray;
+    text-align: right;
+    vertical-align: top;
+    width: 10px;
+    height: 10px;
+}
+
+.cWkNu {
+    border: 1px solid #C0C0C0;
+    font-family: Verdana;
+    font-size: 6px;
+    text-align: left;
+    vertical-align: top;
+    width: 10px;
+    height: 10px;
+}
+
+TD.cCell {
+    text-align: center;
+    vertical-align: middle;
+    width: 167px;
+    height: 140px;
+}
+
+/* Additional styles for holiday tables */
+.tab-col1 {
+    background-color: #C3D9FF;
+}
+
+.tab-col2 {
+    width: 66px;
+}
+
+.tab-col2:nth-child(even) {
+    width: 150px;
+} 
